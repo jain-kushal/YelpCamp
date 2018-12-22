@@ -1,8 +1,18 @@
-.thumbnail img{
-    width: 100%;
-    border-radius: 1%;
+*{
+    margin:0;
+    padding:0;
 }
 
+body{
+    font-family: 'Red Hat Text', sans-serif;
+}
 .delete-btn{
     display: inline;
+}
+
+.card{
+    margin-bottom: 2em
+}
+
+.card-body{
 }
