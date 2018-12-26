@@ -55,5 +55,15 @@
 	background-color: #0f1626;
 	color: #f5f5f5;
 	border: none;
-	box-shadow: ;
+	box-shadow: 5px 9px 12px -2px rgba(0, 0, 0, 0.64);
+}
+
+@media (max-width: 560px) {
+	.carousel {
+		height: auto;
+	}
+	.card {
+		width: 100%;
+		height: 100%;
+	}
 }
