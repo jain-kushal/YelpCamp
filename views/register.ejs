@@ -1,11 +1,18 @@
 <% include ./partials/header %>
-
-<h1>sign up page test </h1>
-
-<form action="/register" method="POST">
-    <input type="text" name="username" placeholder="Username">
-    <input type="password" name="password" placeholder="Password">
-    <button>Submit</button>
-</form>
+<link rel="stylesheet" href="/stylesheets/loginAndSignup.css">
+<div class="d-flex flex-column align-items-center">
+    <div class='form-container text-center'>
+        <h1>Sign up</h1>
+        <form action="/register" method="POST">
+            <div class="form-group">
+                <input type="text" class="form-control" name="username" placeholder="Username">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="password" placeholder="Password">
+            </div>
+            <button type="submit" class='btn btn-primary btn-lg'>Submit</button>   
+        </form>
+    </div>
+</div>
 
 <% include ./partials/footer %>

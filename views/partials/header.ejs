@@ -20,8 +20,8 @@
            
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/campgrounds">Home</a>
+                    <li class="nav-item" id="home">
+                        <a class="nav-link btn" id="home-btn" href="/campgrounds">Home</a>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
@@ -44,16 +44,19 @@
             </div>
         
     </nav>
-    
-    <div class="container">
-        <% if(success && success.length > 0){ %>
-            <div class="alert alert-success" role="alert">
-                <%= success %>
-            </div>
-        <% }else if (error && error.length > 0) { %>
-            <div class="alert alert-danger" role="alert">
-                <%= error %>
-            </div>
-        <% } %>
-    </div>
+
+    <div class="main-body-container">
+        <div class="mt-5">
+                <div class="container mt-5 container-warning">
+                        <% if(success && success.length > 0){ %>
+                            <div class="alert alert-success" role="alert">
+                                <%= success %>
+                            </div>
+                        <% }else if (error && error.length > 0) { %>
+                            <div class="alert alert-danger" role="alert">
+                                <%= error %>
+                            </div>
+                        <% } %>
+                    </div>
+        </div>
     
