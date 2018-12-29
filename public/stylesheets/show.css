@@ -1,0 +1,15 @@
+.container2 {
+	margin-top: 5em;
+}
+.list-group {
+	color: black;
+}
+.card {
+	color: black;
+}
+.card img {
+	border-radius: 5px 5px 0 0;
+}
+.card-body {
+	text-align: justify;
+}

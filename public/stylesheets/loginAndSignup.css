@@ -9,3 +9,11 @@
 		margin: auto none;
 	}
 }
+.form-container a:nth-last-of-type(1) {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.form-container .btn-primary {
+	width: 100%;
+}
