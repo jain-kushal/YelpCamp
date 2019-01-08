@@ -7,6 +7,9 @@ body {
 	font-family: 'Red Hat Text', sans-serif;
 	background-color: #0f1626;
 	color: #ffffff;
+	min-height: 90vh;
+  	position: relative;
+	padding-bottom: 10vh;
 }
 .fa-campground {
 	animation: spin 2s linear;
@@ -70,4 +73,15 @@ a {
 }
 a:hover {
 	color: #ff553d;
+}
+footer{
+	width: 100vw;
+	position: absolute;
+  	bottom: 0;
+	height: 10vh;
+	font-family: 'Red Hat Text', sans-serif;
+}
+footer p{
+	color: white;
+	padding-top: 1em;
 }
